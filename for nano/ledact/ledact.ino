@@ -1,7 +1,7 @@
 /*
  Using a single switch to select between 3 modes
 */
-// Original source of the program: http://www.pwillard.com
+// Original Source of the program: http://www.pwillard.com/
 //===============================================================
 // Global Variables & Constants
 //===============================================================
