@@ -1,16 +1,11 @@
-/*
- Using a single switch to select between 3 modes
-*/
 // Original source of the program: http://www.pwillard.com
-//===============================================================
-// Global Variables & Constants
-//===============================================================
+
  
-const int ledPinOne = 3; // LED1 ANODE
-const int ledPinTwo = 4; // LED2 ANODE
-const int ledPinThree = 5; // LED3 ANODE
-const int ledPinFour = 6; // LED3 ANODE
-const int modePin = 13; // Active HIGH, held low by 4.7K
+const int ledPinOne = 3; // mode 1
+const int ledPinTwo = 4; // mode 2
+const int ledPinThree = 5; // mode 3
+const int ledPinFour = 6; // mode  4
+const int modePin = 13; // mode button pin
  
 int mode = 1; // Selector State (Initial state = ALL OFF)
 int val = 0; // Pin 13 HIGH/LOW Status
